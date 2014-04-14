@@ -6,10 +6,11 @@
 //  Copyright (c) 2014 Vantech. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISlider *slider;
+
 -(IBAction)showAlert;
+-(IBAction)sliderMoved:(UISlider *)slider;
 
 @end
